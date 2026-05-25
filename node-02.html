@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OBSIDIAN // NODE-02</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <main class="shell">
+    <img src="assets/obsidian-logo.png" alt="OBSIDIAN" class="logo small">
+
+    <section class="terminal">
+      <p class="sys ok">&gt; spectrum check: complete</p>
+      <p class="sys ok">&gt; NODE-02 aktiválva</p>
+      <p class="sys">&gt; megfigyelési zóna kijelölése...</p>
+    </section>
+
+    <section class="document">
+      <div class="stamp">ACTIVE NODE</div>
+      <h1>NODE-02 // MEGFIGYELÉSI ZÓNA</h1>
+      <p>Az első terepi állomás aktiválva.</p>
+      <p>A következő kulcsot azok őrzik, akik sosem felejtenek.</p>
+      <p class="danger">A hozzáférés részleges. A teljes koordináta később válik elérhetővé.</p>
+    </section>
+
+    <section class="access-box">
+      <label for="code">TEREPI AZONOSÍTÓ</label>
+      <input id="code" type="text" placeholder="terepi azonosító..." autocomplete="off">
+      <button id="submit">NODE-03 FELOLDÁSA</button>
+      <p id="message" class="message"></p>
+    </section>
+
+    <footer>OBSIDIAN // NODE-02</footer>
+  </main>
+  <script>
+    const acceptedCodes = ["ELEFANT", "ELEFÁNT"];
+    const nextPage = "locked.html";
+  </script>
+  <script src="assets/unlock.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OBSIDIAN // NODE-01</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <main class="shell">
+    <img src="assets/obsidian-logo.png" alt="OBSIDIAN" class="logo small">
+
+    <section class="terminal">
+      <p class="sys ok">&gt; azonosító elfogadva</p>
+      <p class="sys ok">&gt; hozzáférés engedélyezve</p>
+      <p class="sys">&gt; PROTOCOL INITIALIZED</p>
+    </section>
+
+    <section class="document">
+      <div class="stamp">CONFIDENTIAL</div>
+      <h1>NODE-01 // AKTIVÁLÁSI JEGYZŐKÖNYV</h1>
+      <p>A rendszer rögzítette a kapcsolatfelvételt. A kijelölt ciklus megkezdődött.</p>
+      <p>A következő hozzáférési pont nem jelenik meg normál spektrumban.</p>
+      <p><strong>Utasítás:</strong> keresd meg a spektrum kulcsát ott, ahol az emberek megállnak, de ritkán néznek lefelé.</p>
+      <p class="danger">Másodlagos hozzáférés zárolva. Spektrumellenőrzés szükséges.</p>
+    </section>
+
+    <section class="access-box">
+      <label for="code">MÁSODLAGOS AZONOSÍTÓ</label>
+      <input id="code" type="text" placeholder="másodlagos azonosító..." autocomplete="off">
+      <button id="submit">NODE-02 FELOLDÁSA</button>
+      <p id="message" class="message"></p>
+    </section>
+
+    <footer>OBSIDIAN // NODE-01</footer>
+  </main>
+  <script>
+    const acceptedCodes = ["SPEKTRUM", "SPECTRUM", "SPECTRUMKEY", "SPEKTRUMKULCS"];
+    const nextPage = "node-02.html";
+  </script>
+  <script src="assets/unlock.js"></script>
+</body>
+</html>

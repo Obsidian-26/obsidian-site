@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OBSIDIAN // Restricted Access</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <main class="shell">
+    <img src="assets/obsidian-logo.png" alt="OBSIDIAN" class="logo">
+
+    <section class="terminal">
+      <p class="sys">&gt; kapcsolat inicializálása...</p>
+      <p class="sys">&gt; node: <strong>ENTRY-00</strong></p>
+      <p class="sys">&gt; hozzáférési szint: <span class="danger">ismeretlen</span></p>
+      <p class="sys">&gt; elsődleges azonosító szükséges</p>
+    </section>
+
+    <section class="access-box">
+      <label for="code">ELSŐDLEGES AZONOSÍTÓ</label>
+      <input id="code" type="text" placeholder="azonosító..." autocomplete="off">
+      <button id="submit">HOZZÁFÉRÉS ELLENŐRZÉSE</button>
+      <p id="message" class="message"></p>
+    </section>
+
+    <footer>OBSIDIAN // ACCESS LOGGED</footer>
+  </main>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
